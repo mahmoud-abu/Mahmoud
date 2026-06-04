@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mahmoud — Data Science</title>
+
+<!-- خط Poppins من Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+<style>
+  /* ============ المتغيرات والألوان ============ */
+  :root {
+    --violet-light: #8455b0;
+    --violet-mid:   #5b2c87;
+    --violet-deep:  #3a1b5c;
+    --violet-darker:#26113f;
+    --glow:         #b06ff0;
+    --name-green:   #16613a;
+    --name-green-2: #0f4a2c;
+    --glass-bg:     rgba(255, 255, 255, 0.07);
+    --glass-bd:     rgba(255, 255, 255, 0.16);
+    --txt-soft:     rgba(255, 255, 255, 0.72);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body { width: 100%; overflow-x: hidden; }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: clamp(28px, 6vw, 60px) 18px 60px;
+    /* خلفية بنفسجية متدرّجة من فاتح بالأعلى لغامق بالأسفل */
+    background:
+      radial-gradient(circle at 50% 18%, rgba(176,111,240,0.40) 0%, rgba(176,111,240,0) 42%),
+      linear-gradient(180deg, var(--violet-light) 0%, var(--violet-mid) 38%, var(--violet-deep) 70%, var(--violet-darker) 100%);
+    background-attachment: fixed;
+    color: #fff;
+  }
+
+  /* وهج ضوئي خفيف يتنفّس في الخلفية */
+  body::before {
+    content: "";
+    position: fixed;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    max-width: 620px;
+    height: 620px;
+    background: radial-gradient(circle, rgba(176,111,240,0.30) 0%, rgba(176,111,240,0) 65%);
+    filter: blur(20px);
+    z-index: 0;
+    pointer-events: none;
+    animation: breathe 7s ease-in-out infinite;
+  }
+  @keyframes breathe {
+    0%, 100% { opacity: 0.75; transform: translateX(-50%) scale(1); }
+    50%      { opacity: 1;    transform: translateX(-50%) scale(1.06); }
+  }
+
+  /* ============ الحاوية ============ */
+  .card {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* ============ الاسم ============ */
+  .name {
+    font-weight: 900;
+    font-size: clamp(2.8rem, 13vw, 4.6rem);
+    letter-spacing: 2px;
+    line-height: 1;
+    /* تدرّج أبيض → ليلكي ناعم منسجم مع الخلفية البنفسجية */
+    background: linear-gradient(180deg, #ffffff 0%, #f3e8ff 55%, #d9b8ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* توهّج بنفسجي خفيف يعطي إحساس احترافي وفخم */
+    filter: drop-shadow(0 2px 10px rgba(0,0,0,0.30))
+            drop-shadow(0 0 22px rgba(176,111,240,0.45));
+    margin-bottom: clamp(18px, 5vw, 30px);
+  }
+
+  /* ============ الصورة الشخصية ============ */
+  .avatar-wrap {
+    position: relative;
+    width: clamp(150px, 42vw, 200px);
+    height: clamp(150px, 42vw, 200px);
+    margin-bottom: clamp(14px, 4vw, 20px);
+  }
+  /* توهّج بنفسجي خلف الصورة */
+  .avatar-wrap::before {
+    content: "";
+    position: absolute;
+    inset: -22%;
+    background: radial-gradient(circle, rgba(176,111,240,0.85) 0%, rgba(176,111,240,0) 68%);
+    filter: blur(14px);
+    z-index: -1;
+    animation: breathe 6s ease-in-out infinite;
+  }
+  .avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.32);
+    box-shadow: 0 14px 40px rgba(0,0,0,0.45);
+  }
+
+  /* ============ العنوان الفرعي ============ */
+  .subtitle {
+    font-size: clamp(0.92rem, 3.4vw, 1.05rem);
+    font-weight: 400;
+    color: var(--txt-soft);
+    letter-spacing: 0.5px;
+    margin-bottom: clamp(26px, 7vw, 38px);
+  }
+
+  /* ============ قائمة الأزرار ============ */
+  .links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  /* الصندوق الزجاجي */
+  .link {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 11px 16px;
+    border-radius: 16px;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-bd);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+                background 0.3s ease, border-color 0.3s ease;
+  }
+
+  /* صورة دائرية مصغّرة على اليمين (RTL) */
+  .link-avatar {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1.5px solid rgba(255,255,255,0.30);
+  }
+
+  /* اسم المنصّة في المنتصف */
+  .link-name {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+  }
+
+  /* أيقونة النقاط الثلاث العمودية */
+  .dots {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 6px 4px;
+    opacity: 0.65;
+    transition: opacity 0.3s ease;
+  }
+  .dots span {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+  }
+
+  /* تأثير اللمعان المار (shimmer) */
+  .link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(120deg,
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,0.22) 50%,
+      rgba(255,255,255,0) 100%);
+    transform: skewX(-20deg);
+    transition: left 0.7s ease;
+    pointer-events: none;
+  }
+
+  /* تأثيرات المرور بالماوس */
+  .link:hover {
+    transform: translateY(-5px) scale(1.025);
+    background: rgba(255,255,255,0.13);
+    border-color: rgba(255,255,255,0.34);
+    box-shadow: 0 16px 34px rgba(120,60,180,0.45),
+                0 0 0 1px rgba(176,111,240,0.30);
+  }
+  .link:hover::after { left: 130%; }
+  .link:hover .dots { opacity: 1; }
+  .link:active { transform: translateY(-2px) scale(1.0); }
+
+  /* ============ الظهور التدريجي عند التحميل ============ */
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .reveal {
+    opacity: 0;
+    animation: slideUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  /* ============ التجاوب ============ */
+  @media (max-width: 380px) {
+    .link { padding: 10px 12px; gap: 10px; }
+    .link-avatar { width: 36px; height: 36px; }
+    .link-name { font-size: 0.95rem; }
+  }
+  @media (min-width: 768px) {
+    .card { max-width: 480px; }
+  }
+
+  /* احترام تفضيل تقليل الحركة */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+    .reveal { opacity: 1; }
+  }
+</style>
+</head>
+<body>
+
+  <main class="card">
+
+    <!-- الاسم -->
+    <h1 class="name reveal" style="animation-delay:0.05s">MAHMOUD</h1>
+
+    <!-- الصورة الشخصية -->
+    <div class="avatar-wrap reveal" style="animation-delay:0.18s">
+      <img class="avatar" src="assets/portrait.jpg" alt="Mahmoud" />
+    </div>
+
+    <!-- العنوان الفرعي -->
+    <p class="subtitle reveal" style="animation-delay:0.30s">Mahmoud-Data-Science</p>
+
+    <!-- الروابط -->
+    <nav class="links">
+
+      <a class="link reveal" style="animation-delay:0.42s"
+         href="https://mostaql.com/u/MahmoudDataPro" target="_blank" rel="noopener noreferrer">
+        <img class="link-avatar" src="assets/portrait.jpg" alt="" />
+        <span class="link-name">Mostaql</span>
+        <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+      </a>
+
+      <a class="link reveal" style="animation-delay:0.52s"
+         href="https://khamsat.com/user/mahmou2021" target="_blank" rel="noopener noreferrer">
+        <img class="link-avatar" src="assets/portrait.jpg" alt="" />
+        <span class="link-name">Khamsat</span>
+        <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+      </a>
+
+      <a class="link reveal" style="animation-delay:0.62s"
+         href="https://baaeed.com/u/AbuZain200" target="_blank" rel="noopener noreferrer">
+        <img class="link-avatar" src="assets/portrait.jpg" alt="" />
+        <span class="link-name">Baaeed</span>
+        <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+      </a>
+
+      <a class="link reveal" style="animation-delay:0.72s"
+         href="https://www.fiverr.com/mahmoudal_shant/buying?source=avatar_menu_profile" target="_blank" rel="noopener noreferrer">
+        <img class="link-avatar" src="assets/portrait.jpg" alt="" />
+        <span class="link-name">fiverr</span>
+        <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+      </a>
+
+      <a class="link reveal" style="animation-delay:0.82s"
+         href="https://wa.me/970592157561" target="_blank" rel="noopener noreferrer">
+        <img class="link-avatar" src="assets/portrait.jpg" alt="" />
+        <span class="link-name">WhatsApp</span>
+        <span class="dots" aria-hidden="true"><span></span><span></span><span></span></span>
+      </a>
+
+    </nav>
+  </main>
+
+</body>
+</html>
