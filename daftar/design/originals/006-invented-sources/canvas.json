@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-10-11T07:15:00Z"},
+  "title": "#006 مصادر مخترعة",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1080, "h": 1920, "title": "الغلاف · 1080×1920 · يتوقف عند السؤال", "guides": [{"kind": "rows", "count": 1, "size": 1440, "align": "center", "color": "rgba(224,84,74,0.10)"}]},
+    "S1-Hook.dc.html": {"x": 1160, "y": 0, "w": 1080, "h": 1920, "title": "1 · 0.0–2.7 ث · 4 ضربات · الهوك", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S2-Researchers.dc.html": {"x": 2320, "y": 0, "w": 1080, "h": 1920, "title": "2 · 2.7–6.0 ث · 5 ضربات · الباحثون", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S3-Question.dc.html": {"x": 3480, "y": 0, "w": 1080, "h": 1920, "title": "3 · 6.0–9.3 ث · 5 ضربات · السؤال", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S4-Answers.dc.html": {"x": 4640, "y": 0, "w": 1080, "h": 1920, "title": "4 · 9.3–13.3 ث · 6 ضربات · الإجابات", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S5-Name.dc.html": {"x": 0, "y": 2040, "w": 1080, "h": 1920, "title": "5 · 13.3–16.0 ث · 4 ضربات · الاسم", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S6-Rare.dc.html": {"x": 1160, "y": 2040, "w": 1080, "h": 1920, "title": "6 · 16.0–19.3 ث · 5 ضربات · السبب الأول", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S7-Exam.dc.html": {"x": 2320, "y": 2040, "w": 1080, "h": 1920, "title": "7 · 19.3–22.7 ث · 5 ضربات · السبب الثاني", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S8-Courts.dc.html": {"x": 3480, "y": 2040, "w": 1080, "h": 1920, "title": "8 · 22.7–26.0 ث · 5 ضربات · المحاكم", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]},
+    "S9-Open.dc.html": {"x": 4640, "y": 2040, "w": 1080, "h": 1920, "title": "9 · 26.0–30.0 ث · 6 ضربات · افتحه بنفسك", "guides": [{"kind": "rows", "count": 1, "size": 1300, "align": "start", "offset": 240, "color": "rgba(98,102,111,0.06)"}, {"kind": "columns", "count": 1, "size": 810, "align": "end", "offset": 190, "color": "rgba(98,102,111,0.06)"}]}
+  },
+  "order": ["Main.dc.html", "S1-Hook.dc.html", "S2-Researchers.dc.html", "S3-Question.dc.html", "S4-Answers.dc.html", "S5-Name.dc.html", "S6-Rare.dc.html", "S7-Exam.dc.html", "S8-Courts.dc.html", "S9-Open.dc.html"],
+  "notes": {
+    "t1": {"x": 0, "y": -300, "text": "#006 · ليش الذكاء الاصطناعي يخترع مصادر؟ · ريل 1080×1920 · 30 ث · 90 BPM", "kind": "title1", "maxW": 5720},
+    "motion": {"x": 5840, "y": 0, "w": 620, "maxH": 1300, "size": "m", "fill": "orange", "text": "الحركة والصوت\n90 BPM · الضربة 0.667 ث · كل مشهد يبدأ على ضربة · المجموع 45 ضربة = 30 ث\n\n• الطبول من الإطار الأول، بلا مقدمة هادئة. قطع مباشر دائمًا، بلا تلاشٍ.\n• 1: جملة الهوك كاملة من 0.0 ث. الشطب الأحمر على البطاقة يُرسم في 0.0–0.3 ث، ثم التظليل تحت «مش موجود؟».\n• 2: الفقاعات الثلاث تظهر واحدة على كل ضربة.\n• 3: مفتاح البحث ينطفئ على الضربة الثانية.\n• 4: السنوات تنشطب واحدة على كل ضربة.\n• 5: «هلوسة» قطع مباشر، والتظليل يُرسم على الضربة الأولى.\n• 6: الفراغ في الورقة النادرة يتعبّى بخربشة رصاص.\n• 7: الدائرة تتعبّى بالرصاص، و«0» أحمر يظهر على الضربة الثالثة.\n• 8: الرقم يعدّ من 0 إلى 2,100 في ضربتين.\n• 9: علامة الصح تُرسم على الضربة الأولى، ثم ثبات. آخر فريم يقطع إلى المشهد 1 (حلقة).\n• الصوت قرابة −14 LUFS، بلا موسيقى من مكتبة إنستغرام فوقه."}
+  },
+  "designSystems": []
+}

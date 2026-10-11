@@ -1,0 +1,92 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Main.dc.html": {
+      "h": 1440,
+      "title": "1 · الغلاف",
+      "w": 1080,
+      "x": 0,
+      "y": 0
+    },
+    "S2-Mirror.dc.html": {
+      "h": 1440,
+      "title": "2 · المرآة",
+      "w": 1080,
+      "x": 1160,
+      "y": 0
+    },
+    "S3-Idea.dc.html": {
+      "h": 1440,
+      "title": "3 · الفكرة",
+      "w": 1080,
+      "x": 2320,
+      "y": 0
+    },
+    "S4-Proof.dc.html": {
+      "h": 1440,
+      "title": "4 · الحساب",
+      "w": 1080,
+      "x": 3480,
+      "y": 0
+    },
+    "S5-Examples.dc.html": {
+      "h": 1440,
+      "title": "5 · من حياتنا",
+      "w": 1080,
+      "x": 0,
+      "y": 1560
+    },
+    "S6-TryToday.dc.html": {
+      "h": 1440,
+      "title": "6 · جرّبها اليوم",
+      "w": 1080,
+      "x": 1160,
+      "y": 1560
+    },
+    "S7-Summary.dc.html": {
+      "h": 1440,
+      "title": "7 · الخلاصة",
+      "w": 1080,
+      "x": 2320,
+      "y": 1560
+    },
+    "S8-Source.dc.html": {
+      "h": 1440,
+      "title": "8 · المصدر",
+      "w": 1080,
+      "x": 3480,
+      "y": 1560
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-07T08:50:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "t1": {
+      "kind": "title1",
+      "maxW": 4560,
+      "text": "#003 · المتوسط يكذب · كاروسيل 1080×1440",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "S2-Mirror.dc.html",
+    "S3-Idea.dc.html",
+    "S4-Proof.dc.html",
+    "S5-Examples.dc.html",
+    "S6-TryToday.dc.html",
+    "S7-Summary.dc.html",
+    "S8-Source.dc.html"
+  ],
+  "pages": [],
+  "title": "#003 المتوسط يكذب"
+}

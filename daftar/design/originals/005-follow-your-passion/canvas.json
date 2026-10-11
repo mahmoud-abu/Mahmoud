@@ -1,0 +1,100 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Main.dc.html": {
+      "h": 1440,
+      "title": "1 · الغلاف",
+      "w": 1080,
+      "x": 0,
+      "y": 0
+    },
+    "S2-Mirror.dc.html": {
+      "h": 1440,
+      "title": "2 · المرآة",
+      "w": 1080,
+      "x": 1160,
+      "y": 0
+    },
+    "S3-Idea.dc.html": {
+      "h": 1440,
+      "title": "3 · الفكرة",
+      "w": 1080,
+      "x": 2320,
+      "y": 0
+    },
+    "S4-Proof1.dc.html": {
+      "h": 1440,
+      "title": "4 · الدليل الأول",
+      "w": 1080,
+      "x": 3480,
+      "y": 0
+    },
+    "S5-Proof2.dc.html": {
+      "h": 1440,
+      "title": "5 · الدليل الثاني",
+      "w": 1080,
+      "x": 4640,
+      "y": 0
+    },
+    "S6-Example.dc.html": {
+      "h": 1440,
+      "title": "6 · من حياتنا",
+      "w": 1080,
+      "x": 0,
+      "y": 1560
+    },
+    "S7-TryToday.dc.html": {
+      "h": 1440,
+      "title": "7 · جرّبها اليوم",
+      "w": 1080,
+      "x": 1160,
+      "y": 1560
+    },
+    "S8-Summary.dc.html": {
+      "h": 1440,
+      "title": "8 · الخلاصة",
+      "w": 1080,
+      "x": 2320,
+      "y": 1560
+    },
+    "S9-Source.dc.html": {
+      "h": 1440,
+      "title": "9 · المصدر",
+      "w": 1080,
+      "x": 3480,
+      "y": 1560
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-07T11:20:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "t1": {
+      "kind": "title1",
+      "maxW": 5720,
+      "text": "#005 · «اتبع شغفك» نصيحة خطيرة · كاروسيل 1080×1440",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "S2-Mirror.dc.html",
+    "S3-Idea.dc.html",
+    "S4-Proof1.dc.html",
+    "S5-Proof2.dc.html",
+    "S6-Example.dc.html",
+    "S7-TryToday.dc.html",
+    "S8-Summary.dc.html",
+    "S9-Source.dc.html"
+  ],
+  "pages": [],
+  "title": "#005 اتبع شغفك"
+}

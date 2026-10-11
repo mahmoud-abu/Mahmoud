@@ -1,0 +1,245 @@
+{
+ "generated": "2026-10-11",
+ "timezone": "Asia/Jerusalem",
+ "abandoned_canvas": "https://claude.ai/code/artifact/de94a509-2110-4d1a-89a1-0147fbc9f68e",
+ "posts": [
+  {
+   "post": "#000",
+   "type": "carousel",
+   "title": "ابدأ من هنا",
+   "publish_at_local": "2026-10-06",
+   "publish_status": "published",
+   "design_status": "complete",
+   "template": "A",
+   "canvas_url": "https://claude.ai/code/artifact/4bd27fb4-5065-46cf-8394-f77f770c18c4",
+   "originals": "design/originals/000-start-here/",
+   "renders": "references/renders/000-start-here/",
+   "boards": [
+    "Main.dc.html",
+    "S2.dc.html",
+    "S3.dc.html",
+    "S4.dc.html",
+    "S5.dc.html",
+    "S6.dc.html"
+   ]
+  },
+  {
+   "post": "#001",
+   "type": "carousel",
+   "title": "الملتزمون يغلطون مثلك تمامًا",
+   "publish_at_local": "2026-10-08 21:00",
+   "publish_status": "scheduled (unverified)",
+   "design_status": "complete",
+   "template": "A",
+   "canvas_url": "https://claude.ai/code/artifact/4ded5c8c-8720-48c4-a942-79aec30446ca",
+   "originals": "design/originals/001-dont-miss-twice/",
+   "renders": "references/renders/001-dont-miss-twice/",
+   "boards": [
+    "Main.dc.html",
+    "S2.dc.html",
+    "S3.dc.html",
+    "S4.dc.html",
+    "S5.dc.html",
+    "S6.dc.html",
+    "S7.dc.html",
+    "S8.dc.html"
+   ]
+  },
+  {
+   "post": "#002",
+   "type": "reel",
+   "title": "خططت لأسبوع؟ غالبًا أسبوعين",
+   "publish_at_local": "2026-10-10 21:00",
+   "publish_status": "published",
+   "design_status": "complete",
+   "template": "reel-cards",
+   "canvas_url": "https://claude.ai/code/artifact/a1e4fcb7-e41a-4359-b3e5-fc713e371105",
+   "originals": "design/originals/002-planning-fallacy/",
+   "renders": "references/renders/002-planning-fallacy/",
+   "boards": [
+    "Card1-Name.dc.html",
+    "Card2-Stats.dc.html",
+    "Card3-Best.dc.html",
+    "Card4-Question.dc.html",
+    "Card5-Send.dc.html",
+    "Main.dc.html"
+   ]
+  },
+  {
+   "post": "#003",
+   "type": "carousel",
+   "title": "المتوسط يكذب",
+   "publish_at_local": "2026-10-11 21:00",
+   "publish_status": "unverified",
+   "design_status": "complete",
+   "template": "B",
+   "canvas_url": "https://claude.ai/code/artifact/7055f013-8d2f-4d0a-8bf2-04f1ed1f7c43",
+   "originals": "design/originals/003-average-lies/",
+   "renders": "references/renders/003-average-lies/",
+   "boards": [
+    "Main.dc.html",
+    "S2-Mirror.dc.html",
+    "S3-Idea.dc.html",
+    "S4-Proof.dc.html",
+    "S5-Examples.dc.html",
+    "S6-TryToday.dc.html",
+    "S7-Summary.dc.html",
+    "S8-Source.dc.html"
+   ]
+  },
+  {
+   "post": "#004",
+   "type": "reel",
+   "title": "الناس ما انتبهوا لغلطتك",
+   "publish_at_local": "2026-10-13 18:00",
+   "publish_status": "video version undecided",
+   "design_status": "complete",
+   "template": "reel",
+   "canvas_url": "https://claude.ai/code/artifact/b96a96fd-c1c5-44b5-8e39-eefd2d1b413a",
+   "originals": "design/originals/004-spotlight-effect/",
+   "renders": "references/renders/004-spotlight-effect/",
+   "boards": [
+    "Main.dc.html",
+    "S1-Hook.dc.html",
+    "S2-Night.dc.html",
+    "S3-Who.dc.html",
+    "S4-Name.dc.html",
+    "S5-Shirt.dc.html",
+    "S6-Numbers.dc.html",
+    "S7-Judge.dc.html",
+    "S8-Act.dc.html",
+    "S9-Send.dc.html"
+   ]
+  },
+  {
+   "post": "#005",
+   "type": "carousel",
+   "title": "«اتبع شغفك» نصيحة خطيرة",
+   "publish_at_local": "2026-10-15 21:00",
+   "publish_status": "ready to schedule",
+   "design_status": "complete",
+   "template": "B",
+   "canvas_url": "https://claude.ai/code/artifact/b1f6ecbd-82ea-4b8e-ac7e-da27bdb386be",
+   "originals": "design/originals/005-follow-your-passion/",
+   "renders": "references/renders/005-follow-your-passion/",
+   "boards": [
+    "Main.dc.html",
+    "S2-Mirror.dc.html",
+    "S3-Idea.dc.html",
+    "S4-Proof1.dc.html",
+    "S5-Proof2.dc.html",
+    "S6-Example.dc.html",
+    "S7-TryToday.dc.html",
+    "S8-Summary.dc.html",
+    "S9-Source.dc.html"
+   ]
+  },
+  {
+   "post": "#006",
+   "type": "reel",
+   "title": "ليش الذكاء الاصطناعي يخترع مصادر؟",
+   "publish_at_local": "2026-10-17 21:00",
+   "publish_status": "ready to schedule",
+   "design_status": "complete",
+   "template": "reel",
+   "canvas_url": "https://claude.ai/code/artifact/a9356e5c-28ef-4e71-bab3-f4afc9562476",
+   "originals": "design/originals/006-invented-sources/",
+   "renders": "references/renders/006-invented-sources/",
+   "boards": [
+    "Main.dc.html",
+    "S1-Hook.dc.html",
+    "S2-Researchers.dc.html",
+    "S3-Question.dc.html",
+    "S4-Answers.dc.html",
+    "S5-Name.dc.html",
+    "S6-Rare.dc.html",
+    "S7-Exam.dc.html",
+    "S8-Courts.dc.html",
+    "S9-Open.dc.html"
+   ]
+  },
+  {
+   "post": "#007",
+   "type": "carousel",
+   "title": "كيف تضمن الفشل؟",
+   "publish_at_local": "2026-10-18 21:00",
+   "publish_status": "-",
+   "design_status": "not started (copy drafted 2026-10-11, pending owner review + template A/B decision)",
+   "template": null,
+   "copy_draft": "docs/drafts/007-inversion.md"
+  },
+  {
+   "post": "#008",
+   "type": "reel",
+   "title": "قاعدة الدقيقتين: النتيجة بعد 7 أيام",
+   "publish_at_local": "2026-10-20 18:00",
+   "publish_status": "-",
+   "design_status": "not started (produce 2026-10-19)",
+   "template": null
+  },
+  {
+   "post": "#009",
+   "type": "carousel",
+   "title": "21 يومًا؟ الرقم الحقيقي 66",
+   "publish_at_local": "2026-10-22 21:00",
+   "publish_status": "-",
+   "design_status": "not started",
+   "template": null
+  },
+  {
+   "post": "#010",
+   "type": "reel",
+   "title": "العميل ما ردّ 3 أيام؟",
+   "publish_at_local": "2026-10-24 21:00",
+   "publish_status": "-",
+   "design_status": "not started (text-only, no face)",
+   "template": null
+  },
+  {
+   "post": "#011",
+   "type": "carousel",
+   "title": "هيكل الطلب الجيد للذكاء الاصطناعي",
+   "publish_at_local": "2026-10-25 21:00",
+   "publish_status": "-",
+   "design_status": "not started",
+   "template": null
+  },
+  {
+   "post": "#012",
+   "type": "reel",
+   "title": "سيكولوجية المال في دقيقة",
+   "publish_at_local": "2026-10-27 18:00",
+   "publish_status": "-",
+   "design_status": "not started",
+   "template": null
+  },
+  {
+   "post": "#013",
+   "type": "carousel",
+   "title": "أغلب القرارات السيئة تبدو ذكية",
+   "publish_at_local": "2026-10-29 21:00",
+   "publish_status": "-",
+   "design_status": "not started",
+   "template": null
+  },
+  {
+   "post": "#014",
+   "type": "reel",
+   "title": "أكثر مشاريع خسّرتني",
+   "publish_at_local": "2026-10-31 21:00",
+   "publish_status": "-",
+   "design_status": "not started (text-only, no face)",
+   "template": null
+  },
+  {
+   "post": "#015",
+   "type": "carousel",
+   "title": "قبل أي مشروع: تخيّل إنه فشل",
+   "publish_at_local": "2026-11-01 21:00",
+   "publish_status": "-",
+   "design_status": "not started",
+   "template": null
+  }
+ ],
+ "last_session": "2026-10-11 Claude Code takeover (see DESIGN_HANDOFF §12)"
+}

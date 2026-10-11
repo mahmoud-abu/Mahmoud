@@ -1,0 +1,279 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Main.dc.html": {
+      "guides": [
+        {
+          "align": "center",
+          "color": "rgba(224,84,74,0.10)",
+          "count": 1,
+          "kind": "rows",
+          "size": 1440
+        }
+      ],
+      "h": 1920,
+      "title": "الغلاف · 1080×1920",
+      "w": 1080,
+      "x": 0,
+      "y": 0
+    },
+    "S1-Hook.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "1 · 0–2.5 ث · الهوك",
+      "w": 1080,
+      "x": 1160,
+      "y": 0
+    },
+    "S2-Night.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "2 · 2.5–5.5 ث · حتى الليل",
+      "w": 1080,
+      "x": 2320,
+      "y": 0
+    },
+    "S3-Who.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "3 · 5.5–8.5 ث · من انتبه؟",
+      "w": 1080,
+      "x": 3480,
+      "y": 0
+    },
+    "S4-Name.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "4 · 8.5–11 ث · الاسم",
+      "w": 1080,
+      "x": 4640,
+      "y": 0
+    },
+    "S5-Shirt.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "5 · 11–15 ث · التجربة",
+      "w": 1080,
+      "x": 0,
+      "y": 2040
+    },
+    "S6-Numbers.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "6 · 15–20 ث · 46% ← 23%",
+      "w": 1080,
+      "x": 1160,
+      "y": 2040
+    },
+    "S7-Judge.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "7 · 20–26 ث · الحكم",
+      "w": 1080,
+      "x": 2320,
+      "y": 2040
+    },
+    "S8-Act.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "8 · 26–31 ث · ابدأه اليوم",
+      "w": 1080,
+      "x": 3480,
+      "y": 2040
+    },
+    "S9-Send.dc.html": {
+      "guides": [
+        {
+          "align": "start",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "rows",
+          "offset": 240,
+          "size": 1300
+        },
+        {
+          "align": "end",
+          "color": "rgba(98,102,111,0.06)",
+          "count": 1,
+          "kind": "columns",
+          "offset": 190,
+          "size": 770
+        }
+      ],
+      "h": 1920,
+      "title": "9 · 31–35 ث · ابعتها",
+      "w": 1080,
+      "x": 4640,
+      "y": 2040
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-10-07T10:42:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "t1": {
+      "kind": "title1",
+      "maxW": 5720,
+      "text": "#004 · تأثير الضوء المسلّط · ريل 1080×1920 · 35 ثانية",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "S1-Hook.dc.html",
+    "S2-Night.dc.html",
+    "S3-Who.dc.html",
+    "S4-Name.dc.html",
+    "S5-Shirt.dc.html",
+    "S6-Numbers.dc.html",
+    "S7-Judge.dc.html",
+    "S8-Act.dc.html",
+    "S9-Send.dc.html"
+  ],
+  "pages": [],
+  "title": "#004 الضوء المسلّط"
+}

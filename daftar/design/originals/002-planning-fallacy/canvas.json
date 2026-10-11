@@ -1,0 +1,18 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-10-06T11:32:00Z"},
+  "title": "#002 مغالطة التخطيط · غلاف وبطاقات",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 1080, "h": 1920, "title": "الغلاف · 1080×1920", "guides": [{"kind": "rows", "count": 1, "size": 1440, "align": "center", "color": "rgba(224,84,74,0.10)"}]},
+    "Card1-Name.dc.html": {"x": 1160, "y": 0, "w": 880, "h": 336, "title": "بطاقة 1 · الثانية 2–6"},
+    "Card2-Stats.dc.html": {"x": 1160, "y": 456, "w": 960, "h": 720, "title": "بطاقة 2 · الثانية 6–16"},
+    "Card3-Best.dc.html": {"x": 1160, "y": 1296, "w": 880, "h": 336, "title": "بطاقة 3 · الثانية 16–24"},
+    "Card4-Question.dc.html": {"x": 1160, "y": 1752, "w": 880, "h": 432, "title": "بطاقة 4 · الثانية 24–32"},
+    "Card5-Send.dc.html": {"x": 1160, "y": 2304, "w": 640, "h": 336, "title": "بطاقة 5 · الثانية 32–35"}
+  },
+  "order": ["Main.dc.html", "Card1-Name.dc.html", "Card2-Stats.dc.html", "Card3-Best.dc.html", "Card4-Question.dc.html", "Card5-Send.dc.html"],
+  "notes": {},
+  "designSystems": []
+}
