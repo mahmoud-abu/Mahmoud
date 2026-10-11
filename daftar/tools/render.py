@@ -7,7 +7,7 @@ Originals are only read; transformed copies are written to a temp folder.
 import json, os, re, sys, tempfile
 from playwright.sync_api import sync_playwright
 
-SRC, OUT, FONTS = sys.argv[1], sys.argv[2], sys.argv[3]
+SRC, OUT, FONTS = sys.argv[1], sys.argv[2], os.path.abspath(sys.argv[3])
 POSTS_BY_ID = {
     "4bd27fb4-5065-46cf-8394-f77f770c18c4": "000-start-here",
     "4ded5c8c-8720-48c4-a942-79aec30446ca": "001-dont-miss-twice",
@@ -41,7 +41,7 @@ def to_plain(html):
 tmp = tempfile.mkdtemp()
 report = []
 with sync_playwright() as p:
-    b = p.chromium.launch()
+    b = p.chromium.launch(executable_path=os.environ.get("PW_CHROMIUM") or None)
     for aid, name in POSTS.items():
         proj = os.path.join(SRC, aid, "project")
         if not os.path.isdir(proj):
