@@ -4,7 +4,8 @@
 - النشر: **الخميس 15 أكتوبر 2026 · 9 م** · **لازم يُجدول الثلاثاء 13** (`october-daily-plan.md`)
 - السلسلة: نموذج ذهني · الركيزة: التفكير والقرارات · 8 شرائح (السلسلة 6–8)
 - القالب: **B** (قرار محمود، 11 أكتوبر: B لكل الكاروسيل من #007)
-- ملفات التصميم: `design/work/007-inversion/` · الصور: `references/renders/007-inversion/` · `references/contact-sheet-007-inversion.png`
+- كانفس Design: https://claude.ai/artifact/1STPjnBYMg49k9A25TeXLb
+- ملفات التصميم: `design/work/007-inversion/` · الصور: `references/renders/007-inversion/` · `references/contact-sheet-007-inversion.png` · بدقة 2x: `exports/daftar-007-2x.zip`
 - بعد الاعتماد: يُنقل النص إلى `claude/post-copy.md` في مشروع «Instagram».
 
 ### سجل التعديلات على النص
